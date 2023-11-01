@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box; 
+    transition: all 0.3s;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: blueviolet;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 13px;
+    background-color: beige;
+    background: cover;
+    margin: auto;
+    padding: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
