@@ -10,7 +10,7 @@ function sumar() {
     } else {
         var suma = numero1 + numero2;
 
-        document.getElementById("resultado").textContent = "La suma de " + numero1 + " y " + numero2 + " es igual a: " + suma;
+        document.getElementById("resultado").textContent = "el resultado es: " + suma
     }
 }
 
