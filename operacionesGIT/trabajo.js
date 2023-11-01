@@ -8,7 +8,7 @@ function sumar() {
     if (isNaN(numero1) || isNaN(numero2)) {
         document.getElementById("resultado").textContent = "Por favor, ingresa números válidos.";
     } else {
-        var suma = numero1 + numero2;
+        var suma = numero1 - numero2;
 
         document.getElementById("resultado").textContent = "el resultado es: " + suma
     }
