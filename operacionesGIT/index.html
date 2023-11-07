@@ -10,13 +10,12 @@
 <body>
     <h1>Suma de Números</h1>
     <main id = "cuerpo">
-        <label for="numero1">Ingresa el primer número:</label>
-        <input type="number" id="numero1">
-        <br>
-        <label for="numero2">Ingresa el segundo número:</label>
-        <input type="number" id="numero2">
-        <br>
-        <button onclick="sumar()">Calcular Suma</button>
+        <input type="number" id="numero1" placeholder="Número 1">
+        <input type="number" id="numero2" placeholder="Número 2">
+        <button onclick="operacion('suma')">Sumar</button>
+        <button onclick="operacion('resta')">Restar</button>
+        <button onclick="operacion('multiplicacion')">Multiplicar</button>
+        <button onclick="operacion('division')">Dividir</button>
     </main>
     <h2>Resultado:</h2>
     <p id="resultado"></p>
