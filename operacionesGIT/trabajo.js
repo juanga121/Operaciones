@@ -9,7 +9,6 @@ function operacion(operador) {
         document.getElementById("resultado").textContent = "Por favor ingrese números válidos";
         return;
     }
-
     var resultado;
 
     switch (operador) {
